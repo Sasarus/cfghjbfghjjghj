@@ -1,0 +1,35 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "Muhteşem bot",
+  "main": "shard.js",
+  "scripts": {
+    "start": "node shard.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.0",
+    "chalk": "^4.1.0",
+    "moment": "^2.29.1",
+    "quick.db": "^7.1.1",
+    "discord.js-commando": "^0.10.0",
+    "request-promise-native": "^1.0.9",
+    "request": "^2.88.2",
+    "ms": "^2.1.2",
+    "moment-duration-format": "^2.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
